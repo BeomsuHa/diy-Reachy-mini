@@ -23,19 +23,9 @@ The head movement control is implemented using a pre-calculated pose-based motor
 ### Implementation
 The system is built upon the [Stewart.js library](https://github.com/rawify/Stewart.js) (RAW inverse kinematics library for Stewart Platforms written in JavaScript), which has been adapted and ported to Python to create a comprehensive simulator.
 
-#### Key Features:
-- **Inverse Kinematics Engine**: Converts desired head pose (position and orientation) to individual actuator lengths
-- **Real-time Simulation**: Python-based simulator for testing and validation
-- **Motor Control Interface**: Direct communication with servo motors based on calculated positions
-- **Pose Validation**: Ensures requested poses are within the platform's mechanical limits
-
-#### Technical Stack:
-- **Language**: Python
-- **Architecture**: Class-based modular structure
-- **Dependencies**: NumPy for mathematical calculations, custom inverse kinematics solver
-- **Hardware Interface**: Servo motor control via PWM signals
-
 ### Development Status
+Tools/stewart_platform_simulator.py is the upper image
+
 🚧 **In Progress** - Core inverse kinematics implementation completed, motor integration in development
 
 ---
