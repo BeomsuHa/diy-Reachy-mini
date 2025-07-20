@@ -20,11 +20,10 @@ This project aims to build a comprehensive control system for Reachy Mini throug
 ### Approach
 The head movement control is implemented using a pre-calculated pose-based motor rotation method. This approach utilizes inverse kinematics calculations to determine the precise motor positions required for desired head orientations.
 
-### Implementation
-The system is built upon the [Stewart.js library](https://github.com/rawify/Stewart.js) (RAW inverse kinematics library for Stewart Platforms written in JavaScript), which has been adapted and ported to Python to create a comprehensive simulator.
-
 ### Development Status
 Tools/stewart_platform_simulator.py is the upper image
+Script is built upon the [Stewart.js](https://github.com/rawify/Stewart.js)
+
 
 🚧 **In Progress** - Core inverse kinematics implementation completed, motor integration in development
 
