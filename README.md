@@ -2,6 +2,8 @@
 
 This repository contains the development progress for creating an open-source implementation of Reachy Mini, as the official version has not been fully released as open source yet (as of July 20, 2025).
 
+<img src="images/reachy%20mini%20communication%20system.png" alt="reachy mini communication system" width="50%">
+
 ## Project Overview
 
 This project aims to build a comprehensive control system for Reachy Mini through modular development, focusing on four main components:
